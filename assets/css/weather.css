@@ -1,0 +1,13 @@
+.weatherfr{
+    width: 100%;
+    height: 500px;
+    background-color: lightblue;
+                background-size: cover;
+                    /* Ensures the image covers the entire DIV */
+                    background-position: center;
+                    /* Centers the image */
+                    background-repeat: no-repeat;
+                    /* Prevents image repetition */
+                    transition: background 0.5s ease;
+                    /* Smooth transition */
+}
