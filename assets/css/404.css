@@ -1,0 +1,16 @@
+:root {
+    --purple: #a100e5;
+    --white: #fff;
+    --gwhite: #dedede;
+    --black: #000;
+    --magenta: #ff00ff;
+    --cyan: #00ffff;
+    --yellow: #ffff00;
+    --orange: #ffa500;
+    --green: #008000;
+    --blue: #0000ff;
+    --red: #ff0000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');

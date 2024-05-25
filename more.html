@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="#001AFF">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../website/assets/css/menu.css"> <!-- Menu CSS -->
+    <link rel="stylesheet" href="../website/assets/css/more.css"> <!-- Page CSS -->
+    <title>Intercity News</title>
+</head>
+<body>
+
+    <!--Menu--> <nav>
+        <div class="wrapper">
+            <div class="logo" style="display: flex; align-items: center;">
+              <a href="#" class="logolink" style="width: 100%;">
+                ICN
+              </a>
+            </div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li>
+                <a href="#" class="desktop-item">Other</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Other</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="./svg/logo.svg" alt="" style="width: 80%; height: 80%;">
+                    </div>
+                    <div class="row">
+                      <header>Movies</header>
+                      <ul class="mega-links">
+                        <li><a href="#">TV List</a></li>
+                        <li><a href="#">TV Program News</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Services</header>
+                      <ul class="mega-links">
+                        <li><a href="#">Weather</a></li>
+                        <li><a href="#">Sport</a></li>
+                        <li><a href="#">Economy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#" class="Login">Log in</a></li>
+              <li><a href="#" class="Signup">Sign up</a></li>
+              <li><a href="#" class="useric" id="useric">
+                <img src="./uploadedimg/Icon.png" style="width: 20px; height: 20px;" class="pfp">
+              </a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+          </div>
+    </nav>
+
+    <section class="S1">
+        <div class="image">
+            <div class="imgframe">
+                <h1 class="newsheader" id="nwh1">News <i class="fa-sharp fa-solid fa-newspaper"></i></h1>
+                <h1 class="newsheader" id="nwh2">Weather <i class="fa-sharp fa-solid fa-cloud"></i></h1>
+                <h1 class="newsheader" id="nwh3">Sports <i class="fa-sharp fa-solid fa-medal"></i></h1>
+                <h1 class="newsheader" id="nwh4">Economy <i class="fa-sharp fa-solid fa-arrow-trend-up"></i></h1>
+            </div>
+        </div>
+    </section>
+    
+    <script src="/assets/js/scrollingtxt.js"></script>
+</body>
+</html>
