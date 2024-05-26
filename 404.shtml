@@ -10,10 +10,58 @@
     <title>Intercity News - 404</title>
 </head>
 <body>
+    
+    <nav>
+        <div class="wrapper">
+            <div class="logo" style="display: flex; align-items: center;">
+              <a href="/" class="logolink" style="width: 100%;">
+                ICN
+              </a>
+            </div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+              <li><a href="/">Home</a></li>
+              <li><a href="/more.html">News</a></li>
+              <li>
+                <a href="#" class="desktop-item">Other</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Other</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="./svg/logo.svg" alt="" style="width: 80%; height: 80%;">
+                    </div>
+                    <div class="row">
+                      <header>Movies</header>
+                      <ul class="mega-links">
+                        <li><a href="#">TV List</a></li>
+                        <li><a href="#">TV Program News</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Services</header>
+                      <ul class="mega-links">
+                        <li><a href="#">Weather</a></li>
+                        <li><a href="#">Sport</a></li>
+                        <li><a href="#">Economy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#" class="Login">Log in</a></li>
+              <li><a href="#" class="Signup">Sign up</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+          </div>
+    </nav>
+
     <div class="mainframe">
         <div class="box">
             <h1>Sorry, we couldn´t find the page!</h1>
-            <a href="./index.html">Go back</a>
+            <a href="./index.html" class="butn">Go back</a>
         </div>
     </div>
 </body>
