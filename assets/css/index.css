@@ -190,3 +190,33 @@
     background-color: var(--gwhite);
     margin: 10px;
 }
+
+  .cookie-modal {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      text-align: center;
+  }
+
+  .cookie-modal.show {
+      opacity: 1;
+      /* Modal becomes visible after fade-in */
+  }
+
+  .cookie-modal-inner{
+    display: flex;
+    padding: 10px;
+    background-color: var(--gwhite);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 20px;
+  }

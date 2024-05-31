@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKXRRJ5VMH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-VKXRRJ5VMH');
+  </script>
     <meta name="theme-color" content="#001AFF">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,6 +66,15 @@
           </div>
     </nav>
 
+  <div class="cookie-modal">
+    <div class="cookie-modal-inner">
+    <img src="./assets/img/cookies.png" style="height: 25%;">
+    <p>This website uses cookies to improve your experience. By continuing to browse, you consent to our use of cookies.
+    </p>
+    <button id="closeModal" class="s1btn" style="margin: 40px;">OK</button>
+    </div>
+  </div>
+
     <section class="S1">
         <div class="image">
             <div class="imgframe">
@@ -65,84 +83,128 @@
             </div>
         </div>
     </section>
-        <section class="S2">
-          <h1 class="s2title">About</h1>
-          <div class="newsandteam">
-            <div class="textbox">
-                <p class="s2p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices risus nulla, non pretium quam bibendum sed. Duis dapibus leo sollicitudin diam rhoncus volutpat. Etiam maximus ante vel lacus sagittis, et elementum nulla viverra. Morbi et tempus quam. Nam vitae nisl congue, sollicitudin neque in, efficitur lorem. Nunc accumsan urna risus, in imperdiet lectus convallis in. Phasellus efficitur malesuada urna, vitae bibendum purus.</p>
-                <div class="divider"></div>
-                <h2>Lorem ipsum</h2>
-                <p class="s2p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices risus nulla, non pretium quam bibendum sed. Duis dapibus leo sollicitudin diam rhoncus volutpat. Etiam maximus ante vel lacus sagittis, et elementum nulla viverra. Morbi et tempus quam. Nam vitae nisl congue, sollicitudin neque in, efficitur lorem. Nunc accumsan urna risus, in imperdiet lectus convallis in. Phasellus efficitur malesuada urna, vitae bibendum purus.</p>
-                <div class="divider"></div>
-                <h2>Lorem ipsum</h2>
-                <p class="s2p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices risus nulla, non pretium quam bibendum sed. Duis dapibus leo sollicitudin diam rhoncus volutpat. Etiam maximus ante vel lacus sagittis, et elementum nulla viverra. Morbi et tempus quam. Nam vitae nisl congue, sollicitudin neque in, efficitur lorem. Nunc accumsan urna risus, in imperdiet lectus convallis in. Phasellus efficitur malesuada urna, vitae bibendum purus.</p>
-            </div>
-           <div class="team">
-            <h1 class="s2stitle">Our team</h1>
-            <div class="images">
-<button class="accordion"><i class="fa-solid fa-crown"></i> TruckManiac </button>
-<div class="acr">
-    <img src="./assets/img/TruckManiac.jpg" class="acrimg">
-  <p>TruckManiac is a British MTR community member who makes car, truck and train videos on his YouTube channel, also called TruckManiac. He helped build on MTR servers such as Cascadia, Intercity, Helensburgh and Geo Railways. He founded Intercity News, CascadiGear, GeoGear and helps with CCN. He works on the news service as host along with co-host of Intercity News and host of Cascadia Country News, BootsXA. After events in Intercity, he left for 2 weeks until joining back and becoming host once more and now works on helping QQ and Sam with scripts and makes episodes to this day.</p>
-</div>
-<button class="accordion"><i class="fa-solid fa-film" style="margin-right: 5px;"></i><i class="fa-solid fa-globe" style="margin-right: 2px;"></i> <i class="fa-solid fa-camera"></i> JustNoone </button>
-<div class="acr">
-    <img src="./assets/img/JN.png" class="acrimg">
-  <p>Hey, i am JustNoone and i do mainly the coding and editing. Yet sometimes i record for ICN. I am currently developing this website. But i really enjoy it. Even tho i got banned recently from IC (got unbanned). But i really think that everything except the team behind the moderation is fine. #fuckcascadia #fuckvelocitas #fucktrxvis.scott</p>
-</div>
 
-<button class="accordion"><i class="fa-solid fa-film" style="margin-right: 5px;"></i><i class="fa-solid fa-globe" style="margin-right: 2px;"></i>  QQTheElephant </button>
-<div class="acr">
-    <img src="https://cdn.discordapp.com/avatars/992955930599764060/ff0cf0ce0692b7fbfa05dab86745d12f?size=1024" class="acrimg">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion"><i class="fa-solid fa-person"></i> Kay </button>
-<div class="acr">
-    <img src="https://cdn.discordapp.com/avatars/796216207623323688/0c50d52232a52d4f0d19317cd50865fa?size=1024" class="acrimg">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion"><i class="fa-solid fa-person"  style="margin-right: 5px;"></i><i class="fa-solid fa-film"></i> BootsXA </button>
-<div class="acr">
-    <img src="https://cdn.discordapp.com/avatars/1073611246366117979/2e10b7fd1978eee8c69c22b486e9fd16?size=1024" class="acrimg">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-                <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-                </script>   
-            </div>
-        
-        </div>
+    <section class="NewsGallery">
 
 
-          </div>
+
     </section>
 
+    <section class="S2">
+        <h1 class="s2title">About</h1>
+        <div class="newsandteam">
+            <div class="textbox">
+                <p class="s2p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices risus nulla, non
+                    pretium quam bibendum sed. Duis dapibus leo sollicitudin diam rhoncus volutpat. Etiam maximus ante vel
+                    lacus sagittis, et elementum nulla viverra. Morbi et tempus quam. Nam vitae nisl congue, sollicitudin
+                    neque in, efficitur lorem. Nunc accumsan urna risus, in imperdiet lectus convallis in. Phasellus
+                    efficitur malesuada urna, vitae bibendum purus.</p>
+                <div class="divider"></div>
+                <h2>Lorem ipsum</h2>
+                <p class="s2p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices risus nulla, non
+                    pretium quam bibendum sed. Duis dapibus leo sollicitudin diam rhoncus volutpat. Etiam maximus ante vel
+                    lacus sagittis, et elementum nulla viverra. Morbi et tempus quam. Nam vitae nisl congue, sollicitudin
+                    neque in, efficitur lorem. Nunc accumsan urna risus, in imperdiet lectus convallis in. Phasellus
+                    efficitur malesuada urna, vitae bibendum purus.</p>
+                <div class="divider"></div>
+                <h2>Lorem ipsum</h2>
+                <p class="s2p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices risus nulla, non
+                    pretium quam bibendum sed. Duis dapibus leo sollicitudin diam rhoncus volutpat. Etiam maximus ante vel
+                    lacus sagittis, et elementum nulla viverra. Morbi et tempus quam. Nam vitae nisl congue, sollicitudin
+                    neque in, efficitur lorem. Nunc accumsan urna risus, in imperdiet lectus convallis in. Phasellus
+                    efficitur malesuada urna, vitae bibendum purus.</p>
+            </div>
+            <div class="team">
+                <h1 class="s2stitle">Our team</h1>
+                <div class="images">
+                    <button class="accordion"><i class="fa-solid fa-crown"></i> TruckManiac </button>
+                    <div class="acr">
+                        <img src="./assets/img/TruckManiac.jpg" class="acrimg">
+                        <p>TruckManiac is a British MTR community member who makes car, truck and train videos on his
+                            YouTube channel, also called TruckManiac. He helped build on MTR servers such as Cascadia,
+                            Intercity, Helensburgh and Geo Railways. He founded Intercity News, CascadiGear, GeoGear and
+                            helps with CCN. He works on the news service as host along with co-host of Intercity News and
+                            host of Cascadia Country News, BootsXA. After events in Intercity, he left for 2 weeks until
+                            joining back and becoming host once more and now works on helping QQ and Sam with scripts and
+                            makes episodes to this day.</p>
+                    </div>
+                    <button class="accordion"><i class="fa-solid fa-film" style="margin-right: 5px;"></i><i
+                            class="fa-solid fa-globe" style="margin-right: 2px;"></i> <i class="fa-solid fa-camera"></i>
+                        JustNoone </button>
+                    <div class="acr">
+                        <img src="./assets/img/JN.png" class="acrimg">
+                        <p>Hey, i am JustNoone and i do mainly the coding and editing. Yet sometimes i record for ICN. I am
+                            currently developing this website. But i really enjoy it. Even tho i got banned recently from IC
+                            (got unbanned). But i really think that everything except the team behind the moderation is
+                            fine. #fuckcascadia #fuckvelocitas #fucktrxvis.scott</p>
+                    </div>
+    
+    
+                    <button class="accordion"><i class="fa-solid fa-person"></i> Kay </button>
+                    <div class="acr">
+                        <img src="https://cdn.discordapp.com/avatars/796216207623323688/0c50d52232a52d4f0d19317cd50865fa?size=1024"
+                            class="acrimg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+    
+                    <button class="accordion"><i class="fa-solid fa-person" style="margin-right: 5px;"></i><i
+                            class="fa-solid fa-film"></i> BootsXA </button>
+                    <div class="acr">
+                        <img src="https://cdn.discordapp.com/avatars/1073611246366117979/2e10b7fd1978eee8c69c22b486e9fd16?size=1024"
+                            class="acrimg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+    
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBVY8NRBFG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+                        for (i = 0; i < acc.length; i++) {
+                            acc[i].addEventListener("click", function () {
+                                this.classList.toggle("active");
+                                var panel = this.nextElementSibling;
+                                if (panel.style.maxHeight) {
+                                    panel.style.maxHeight = null;
+                                } else {
+                                    panel.style.maxHeight = panel.scrollHeight + "px";
+                                }
+                            });
+                        }
+                    </script>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+    </section>
+    
 
-  gtag('config', 'G-FBVY8NRBFG');
-</script>
 
-</body>
-</html>
+    <script>
+  const cookieModal = document.querySelector(".cookie-modal");
+  const closeButton = document.getElementById("closeModal");
+
+  // Function to close the modal
+  function closeCookieModal() {
+    cookieModal.classList.remove("show");
+    // You can also set a cookie here to prevent the modal from showing again
+    // This requires additional logic for cookie handling (libraries like js-cookie can help)
+  }
+
+  // Delay modal display by 0.5 seconds
+  setTimeout(function () {
+    cookieModal.classList.add("show");
+  }, 500);  // 500 milliseconds = 0.5 seconds
+
+  // Add click event listener to close button
+  closeButton.addEventListener("click", closeCookieModal);
+    </script>
+    
+    </body>
+    
+    </html>
